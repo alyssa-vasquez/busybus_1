@@ -1,0 +1,127 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.statusbar {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 20px;
+  background-color: rgba(90, 200, 250, 0.5);
+}
+
+.current-stop {
+  background-color: rgba(90, 200, 250, 0.75);
+  font-size: 1.45em;
+  font-family: BlinkMacSystemFont;
+  font-weight: 500;
+  padding-top: 20px;
+  text-align: center;
+  height: 60px;
+}
+
+.back-arrow {
+  bottom: 20px;
+  color: black;
+  font-size: 12px;
+  position: relative;
+  padding-left: 10px;
+  text-align: left;
+}
+
+.download {
+  position: relative;
+  right: 10px;
+  bottom: 50px;
+  text-align: right;
+}
+
+h2 {
+  border-bottom: 1px solid #C4C4C4;
+  font-family: BlinkMacSystemFont;
+  font-size: 1em;
+  font-weight: 425;
+  padding: 1%;
+  text-align: left;
+}
+
+.direction {
+  background-color: lightgrey;
+}
+
+.reroute {
+  background-color: #FFF965;
+}
+
+.OS {
+  background-color: #E14440;
+}
+
+/* 1em=12pt */
+
+.number {
+  font-size: 1.3em;
+  font-weight: 600;
+  float: left;
+  padding-left: 3%;
+}
+
+.destination {
+  font-size: 1.25em;
+  font-weight: 425px;
+  float: left;
+  padding-left: 15%;
+}
+
+.time {
+  font-size: 1.25em;
+  font-weight: 425px;
+  float: left;
+  margin-left: 70%;
+}
+
+
+.arrow {
+  color: #8E8E93;
+  font-size: 10px;
+  float: left;
+  margin-left: 92%;
+}
+
+.location {
+  border-bottom: 1px solid #C7C7CC;
+  padding-bottom: 40px;
+  padding-top: 20px;
+}
+
+li {
+  display: inline;
+  font-family: BlinkMacSystemFont;
+  text-align: left;
+  position: absolute;
+}
+
+.bottomlogos {
+  display: inline;
+}
+
+p {
+  font-size: .8em;
+}
+
+.buslogo {
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.maplogo {
+  padding-left: 175px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.routelogo {
+  padding-left: 320px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
