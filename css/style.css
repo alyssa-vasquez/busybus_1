@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.container {
+  margin: 0, auto;
+  width: 400px;
+}
+
 .statusbar {
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,14 +51,20 @@ h2 {
 
 .direction {
   background-color: lightgrey;
+  margin: 0, auto;
+  width: 400px;
 }
 
 .reroute {
-  background-color: #FFF965;
+  background-color: rgb(255, 234, 0);
+  margin: 0, auto;
+  width: 400px;
 }
 
 .OS {
-  background-color: #E14440;
+  background-color: rgb(255, 59, 80);
+  margin: 0, auto;
+  width: 400px;
 }
 
 /* 1em=12pt */
@@ -62,21 +73,23 @@ h2 {
   font-size: 1.3em;
   font-weight: 600;
   float: left;
-  padding-left: 3%;
+  padding-left: 5px;
 }
 
 .destination {
   font-size: 1.25em;
   font-weight: 425px;
   float: left;
-  padding-left: 15%;
+  padding-left: 55px;
 }
 
 .time {
   font-size: 1.25em;
   font-weight: 425px;
   float: left;
-  margin-left: 70%;
+  padding-left: 280px;
+  margin: 0, auto;
+  width: 400px;
 }
 
 
@@ -84,13 +97,19 @@ h2 {
   color: #8E8E93;
   font-size: 10px;
   float: left;
-  margin-left: 92%;
+  margin-left: 370px;
 }
 
 .location {
   border-bottom: 1px solid #C7C7CC;
   padding-bottom: 40px;
   padding-top: 20px;
+  margin: 0, auto;
+  width: 400px;
+}
+
+.list {
+  overflow: scroll;
 }
 
 li {
@@ -101,6 +120,7 @@ li {
 }
 
 .bottomlogos {
+  bottom: 0;
   display: inline;
 }
 
@@ -121,7 +141,7 @@ p {
 }
 
 .routelogo {
-  padding-left: 320px;
+  padding-left: 320px;;
   padding-top: 10px;
   padding-bottom: 10px;
 }
