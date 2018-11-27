@@ -66,53 +66,57 @@ h2 {
 .number {
   font-size: 1.3em;
   font-weight: 600;
-  float: left;
-  padding-left: 5px;
+  padding-left: 1%;
+  width: 11%
 }
 
 .destination {
   font-size: 1.25em;
   font-weight: 425px;
-  float: left;
-  padding-left: 55px;
+  width: 58%
 }
 
 .time {
   font-size: 1.25em;
   font-weight: 425px;
-  float: left;
-  padding-left: 280px;
-  width: 400px;
+  width: 21%;
 }
 
+/* .time-os {
+  font-size: 1.25em;
+  font-weight: 425px;
+  width: 21%;
+} */
 
 .arrow {
   color: #8E8E93;
   font-size: 10px;
-  float: left;
-  margin-left: 370px;
+  text-align: right;
 }
 
 .location {
   border-bottom: 1px solid #C7C7CC;
-  padding-bottom: 40px;
-  padding-top: 20px;
+  height: 55px;
+  padding-top: 15px;
 }
+
+/* .location-os {
+  border-bottom: 1px solid #C7C7CC;
+  height: 55px;
+  padding-top: 8px;
+} */
 
 .list {
   overflow: scroll;
 }
 
 li {
-  display: inline;
+  display: inline-block;
   font-family: BlinkMacSystemFont;
-  text-align: left;
-  position: absolute;
 }
 
-.bottomlogos {
-  bottom: 0;
-  display: inline;
+.tabbar {
+  height: 50px;
 }
 
 p {
@@ -120,19 +124,15 @@ p {
 }
 
 .buslogo {
-  padding-left: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  height: 50px;
+  padding-left: 20px;
+  width: 40%;
 }
 
 .maplogo {
-  padding-left: 175px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  height: 50px;
+  width: 40%;
 }
 
 .routelogo {
-  padding-left: 320px;;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
