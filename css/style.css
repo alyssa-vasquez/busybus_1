@@ -82,11 +82,13 @@ h2 {
   width: 21%;
 }
 
-/* .time-os {
+.time-os {
   font-size: 1.25em;
   font-weight: 425px;
   width: 21%;
-} */
+  position: relative;
+  top: 6px;
+}
 
 .arrow {
   color: #8E8E93;
@@ -100,11 +102,11 @@ h2 {
   padding-top: 15px;
 }
 
-/* .location-os {
+.location-os {
   border-bottom: 1px solid #C7C7CC;
   height: 55px;
-  padding-top: 8px;
-} */
+  padding-top: 0px;
+}
 
 .list {
   overflow: scroll;
@@ -116,7 +118,7 @@ li {
 }
 
 .tabbar {
-  height: 50px;
+  padding-top: 8px;
 }
 
 p {
@@ -124,14 +126,13 @@ p {
 }
 
 .buslogo {
-  height: 50px;
   padding-left: 20px;
-  width: 40%;
+  width: 47%;
 }
 
 .maplogo {
   height: 50px;
-  width: 40%;
+  width: 36%;
 }
 
 .routelogo {
