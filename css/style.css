@@ -51,20 +51,14 @@ h2 {
 
 .direction {
   background-color: lightgrey;
-  margin: 0, auto;
-  width: 400px;
 }
 
 .reroute {
   background-color: rgb(255, 234, 0);
-  margin: 0, auto;
-  width: 400px;
 }
 
 .OS {
   background-color: rgb(255, 59, 80);
-  margin: 0, auto;
-  width: 400px;
 }
 
 /* 1em=12pt */
@@ -88,7 +82,6 @@ h2 {
   font-weight: 425px;
   float: left;
   padding-left: 280px;
-  margin: 0, auto;
   width: 400px;
 }
 
@@ -104,8 +97,6 @@ h2 {
   border-bottom: 1px solid #C7C7CC;
   padding-bottom: 40px;
   padding-top: 20px;
-  margin: 0, auto;
-  width: 400px;
 }
 
 .list {
