@@ -3,8 +3,8 @@
 }
 
 .container {
-  margin: 0, auto;
-  width: 400px;
+  margin: 0 auto;
+  width: 375px;
 }
 
 .statusbar {
@@ -36,7 +36,7 @@
 .download {
   position: relative;
   right: 10px;
-  bottom: 50px;
+  bottom: 47px;
   text-align: right;
 }
 
@@ -77,17 +77,17 @@ h2 {
 }
 
 .time {
-  font-size: 1.25em;
+  font-size: 1.16em;
   font-weight: 425px;
-  width: 21%;
+  width: 21.5%;
 }
 
 .time-os {
-  font-size: 1.25em;
+  font-size: 1.16em;
   font-weight: 425px;
-  width: 21%;
+  width: 21.5%;
   position: relative;
-  top: 6px;
+  top: 8px;
 }
 
 .arrow {
@@ -109,7 +109,8 @@ h2 {
 }
 
 .list {
-  overflow: scroll;
+  height: 529px;
+  overflow-y: scroll;
 }
 
 li {
@@ -118,6 +119,7 @@ li {
 }
 
 .tabbar {
+  border-top: 1px solid #C7C7CC;
   padding-top: 8px;
 }
 
@@ -131,7 +133,6 @@ p {
 }
 
 .maplogo {
-  height: 50px;
   width: 36%;
 }
 
